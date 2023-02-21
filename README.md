@@ -20,9 +20,9 @@ npm i mongoose
 
 npm run dev
 
-##
+## Front
 
-x
+npx create-react-app frontend
 
 
 
