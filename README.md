@@ -30,11 +30,19 @@ npx create-react-app frontend
 
 npm i react-router-dom
 
+## Tests
 
+Raw - JSON
 
+**POST localhost:4000/api/workouts**
 
-
-
+```json
+{
+    "title": "Situps",
+    "load": 0,
+    "reps": 50
+}
+```
 
 
 
