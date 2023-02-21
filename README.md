@@ -17,7 +17,8 @@ npm i -g nodemon
 
 npm i express<br>
 npm i dotenv<br>
-npm i mongoose
+npm i mongoose<br>
+npm i validator
 
 **Run**
 
