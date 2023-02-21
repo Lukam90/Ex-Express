@@ -28,7 +28,12 @@ npx create-react-app frontend
 
 **Packages**
 
-npm i react-router-dom
+npm i react-router-dom<br>
+npm i date-fns
+
+**Run**
+
+npm start
 
 ## Tests
 
@@ -44,7 +49,7 @@ Raw - JSON
 }
 ```
 
-
+T=33'33
 
 
 
