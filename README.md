@@ -22,11 +22,13 @@ npm run dev
 
 ## Front
 
+**Create**
+
 npx create-react-app frontend
 
+**Packages**
 
-
-
+npm i react-router-dom
 
 
 
