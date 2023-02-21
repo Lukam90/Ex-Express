@@ -18,7 +18,8 @@ npm i -g nodemon
 npm i express<br>
 npm i dotenv<br>
 npm i mongoose<br>
-npm i validator
+npm i validator<br>
+npm i jsonwebtoken
 
 **Run**
 
@@ -53,23 +54,23 @@ Raw - JSON
 }
 ```
 
-T=33'33
+## Terms
+
+**Header**
+
+Contains the algorithm used for the JWT
+
+**Payload**
+
+Contains non-sensitive user data (ex : user id)
+
+**Signature**
+
+Used to verify the token by the server
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+T = 45' / 60
 
 
 
