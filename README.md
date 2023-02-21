@@ -4,7 +4,20 @@
 
 ## Back
 
-x
+**Init**
+
+npm init -y
+
+**Packages**
+
+npm i -g nodemon
+
+npm i express<br>
+npm i dotenv
+
+**Run**
+
+npm run dev
 
 ##
 
