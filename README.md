@@ -13,7 +13,8 @@ npm init -y
 npm i -g nodemon
 
 npm i express<br>
-npm i dotenv
+npm i dotenv<br>
+npm i mongoose
 
 **Run**
 
