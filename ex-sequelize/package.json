@@ -2,9 +2,10 @@
   "name": "ex-sequelize",
   "version": "1.0.0",
   "description": "[Create Complete Rest API Using Nodejs Express MySQL Sequelize In One Video](https://www.youtube.com/watch?v=tpso18ghda4) de *Great Adib*",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +14,7 @@
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "mysql2": "^3.1.2",
+    "nodemon": "^2.0.20",
     "sequelize": "^6.28.1"
   }
 }

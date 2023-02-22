@@ -10,12 +10,12 @@ npm init -y
 
 **Packages**
 
-npm i --save express sequelize cors mysql2
+npm i --save express sequelize cors mysql2<br>
+npm i nodemon
 
+**Run**
 
-
-
-
+npm run dev
 
 
 

@@ -23,7 +23,40 @@ const getAllProducts = async (req, res) => {
 }
 
 const getOneProduct = async (req, res) => {
-    const products = await Product.findAll()
+    const id = req.params.id
+
+    const product = await Product.findOne({ where: { id: id } })
+
+    res.status(200).send(product)
+}
+
+const updateProduct = async (req, res) => {
+    const id = req.params.id
+
+    const product = await Product.update(req.body, { where: { id: id } })
+
+    res.status(200).send(product)
+}
+
+const deleteProduct = async (req, res) => {
+    const id = req.params.id
+
+    await Product.destroy({ where: { id: id } })
+
+    res.status(200).send("The product is deleted.")
+}
+
+const getPublishedProducts = async (req, res) => {
+    const products = await Product.findAll({ where: { published: true } })
 
     res.status(200).send(products)
+}
+
+module.exports = {
+    addProduct,
+    getAllProducts,
+    getOneProduct,
+    updateProduct,
+    deleteProduct,
+    getPublishedProducts
 }
