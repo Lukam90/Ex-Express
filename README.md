@@ -70,7 +70,7 @@ Used to verify the token by the server
 
 
 
-T = 45' / 60
+T = 8' / 45'
 
 
 
