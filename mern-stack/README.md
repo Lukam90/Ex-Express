@@ -1,4 +1,4 @@
-# Ex-Express
+# mern-stack
 
 Playlists (Net Ninja) :
 
@@ -67,18 +67,3 @@ Contains non-sensitive user data (ex : user id)
 **Signature**
 
 Used to verify the token by the server
-
-
-
-T = 8' / 45'
-
-
-
-
-
-
-
-
-
-
-
