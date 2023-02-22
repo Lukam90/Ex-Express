@@ -16,6 +16,16 @@ function App() {
 							path="/"
 							element={<Home />}
 						/>
+
+						<Route
+							path="/login"
+							element={<Home />}
+						/>
+
+						<Route
+							path="/signup"
+							element={<Home />}
+						/>
 					</Routes>
 				</div>
 			</BrowserRouter>
