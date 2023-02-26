@@ -23,7 +23,7 @@ app.use("/api/workouts", workoutRoutes)
 app.use("/api/user", userRoutes)
 
 // Connect to DB
-mongoose.set('strictQuery', false)
+mongoose.set('strictQuery', true)
 mongoose.connect(process.env.MONGO_URI)
     .then(() => {
         // Listen for requests
