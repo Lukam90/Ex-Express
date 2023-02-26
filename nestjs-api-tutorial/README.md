@@ -8,6 +8,11 @@
 
 npm i -g @nestjs/cli
 
+npm i -D prisma<br>
+npm i @prisma/client
+
+**Create**
+
 nest new nestjs-api-tutorial
 
 **Run**
@@ -18,3 +23,15 @@ npm run start:dev
 
 nest g module user<br>
 nest g module bookmark
+
+**Prisma**
+
+npx prisma init
+
+## Docker
+
+pip install docker-compose
+
+docker compose up dev-db -d
+
+docker ps
