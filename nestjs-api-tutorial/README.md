@@ -22,11 +22,12 @@ npm run start:dev
 **Modules**
 
 nest g module user<br>
-nest g module bookmark
+nest g module bookmark<br>
+nest g module prisma
 
-**Prisma**
+**Services**
 
-npx prisma init
+nest g service prisma --no-spec
 
 ## Docker
 
@@ -35,3 +36,13 @@ pip install docker-compose
 docker compose up dev-db -d
 
 docker ps
+
+## Prisma
+
+npx prisma init
+
+npx prisma migrate dev
+
+npx prisma generate
+
+npx prisma studio
