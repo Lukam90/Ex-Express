@@ -12,6 +12,8 @@ npm init -y
 
 npm i --save-dev prisma typescript ts-node @types/node nodemon
 
+npm i @prisma/client
+
 **Run**
 
 npm run dev
@@ -19,3 +21,9 @@ npm run dev
 ## Prisma
 
 npx prisma init --datasource-provider postgresql
+
+npx prisma format
+
+npx prisma generate
+
+npx prisma migrate dev --name init
